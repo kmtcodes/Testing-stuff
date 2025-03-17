@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Photo Gallery</title>
+    <style>
+        body {
+            text-align: center;
+            background: url('image1.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        section {
+            width: 80%;
+            margin: 50px auto;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        h1, h2, p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#video">Videos</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="home">
+        <h1>Welcome to My Personal Photo Gallery</h1>
+        <p>Explore my favorite moments captured in stunning photographs.</p>
+    </section>
+    
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <img src="photo1.jpg" alt="Photo 1" width="300">
+        <img src="photo2.jpg" alt="Photo 2" width="300">
+        <img src="photo3.jpg" alt="Photo 3" width="300">
+    </section>
+    
+    <section id="video">
+        <h2>Video Section</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7XRhOv8eaq4" frameborder="0" allowfullscreen></iframe>
+    </section>
+    
+      
+    <footer>
+        <p>&copy; 2025 My Personal Photo Gallery. All rights reserved.</p>
+    </footer>
+</body>
+</html>
